@@ -1,0 +1,58 @@
+body {
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 2em;
+}
+
+h1 {
+    font-family: 'Press Start 2P', cursive;
+    color: yellow;
+}
+
+footer li {
+    list-style: none;
+    display: inline;
+}
+
+#header-link {
+    color: yellow;
+}
+
+#nav-links a {
+    color: green;
+}
+
+.navbar {
+    background-color: black;
+}
+
+.intro-section {
+    background-image: url('/images/universe_header_dark.jpeg');
+    background-size: cover;
+}
+
+.about-section {
+    background-image: url('/images/gameplay_bg.jpeg');
+    background-size: cover;
+}
+
+.services-section {
+    background-image: url('/images/download_bg.jpg');
+    background-size: cover;
+}
+
+.contact-section {
+    background-image: url('/images/contact_bg.jpg');
+    background-size: cover;
+}
+
+#bottom-area {
+    padding-top: 5px;
+    padding-bottom: 0px;
+    height: 5px;
+}
+
+#footer-logo {
+    width: auto;
+    height: 35px;
+}
