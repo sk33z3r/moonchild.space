@@ -1,0 +1,6 @@
+[submodule "pypyjs-release"]
+	path = pypyjs-release
+	url = https://github.com/pypyjs/pypyjs-release.git
+[submodule "game"]
+	path = game
+	url = ssh://git@git.blackrookllc.com:222/ted-moonchild/moonchild-game.git
