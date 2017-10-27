@@ -84,7 +84,17 @@
                     <br>
                     <br>
                     <br>
-                    <img src="images/main_game_sc.JPG" alt="Game start screen">
+                    <!-- <img src="images/main_game_sc.JPG" alt="Game start screen"> -->
+                    <!-- shim for ES6 `Promise` builtin -->
+                    <script src="./lib/Promise.min.js" type="text/javascript"></script>
+                    <!-- shim for off-main-thread function compilation -->
+                    <script src="./lib/FunctionPromise.js" type="text/javascript"></script>
+                    <script src="./lib/pypyjs.js" type="text/javascript"></script>
+                    <script type="text/javascript">
+                    pypyjs.ready().then(function() {
+                        // this callback is fired when the interpreter is ready for use.
+                    })
+                    </script>
                 </div>
             </div>
         </div>
