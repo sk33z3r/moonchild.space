@@ -1,12 +1,15 @@
 body {
     color: white;
-    font-family: 'Lato', sans-serif;
-    font-size: 2em;
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 10px;
 }
 
 h1 {
-    font-family: 'Press Start 2P', cursive;
     color: yellow;
+}
+
+h5 {
+    font-size: 8px;
 }
 
 footer li {
@@ -14,12 +17,28 @@ footer li {
     display: inline;
 }
 
-#header-link {
-    color: yellow;
+#header-logo {
+    margin: -35px 0px 0px 0px;
+    height: 100px;
+    background: black;
 }
 
-#nav-links a {
+#nav-links li {
+    padding: 10px;
+    margin: 25px 20px 0px 0px;
+    font-size: 12px;
+}
+
+#nav-links a, #nav-links a:visited, #nav-links a:active {
+    padding: 10px;
     color: green;
+    background: #222;
+}
+
+#nav-links a:hover {
+    padding: 10px;
+    color: yellow;
+    background: #000;
 }
 
 .navbar {
@@ -27,32 +46,53 @@ footer li {
 }
 
 .intro-section {
-    background-image: url('/images/universe_header_dark.jpeg');
+    background-image: url('../images/universe_header_dark.png');
     background-size: cover;
 }
 
 .about-section {
-    background-image: url('/images/gameplay_bg.jpeg');
+    background-image: url('../images/gameplay_bg.jpeg');
     background-size: cover;
 }
 
 .services-section {
-    background-image: url('/images/download_bg.jpg');
+    background-image: url('../images/download_bg.jpg');
     background-size: cover;
 }
 
 .contact-section {
-    background-image: url('/images/contact_bg.jpg');
+    background-image: url('../images/contact_bg.jpg');
     background-size: cover;
 }
 
-#bottom-area {
-    padding-top: 5px;
-    padding-bottom: 0px;
-    height: 5px;
+.pxmargin {
+    margin: 20px 0px;
 }
 
-#footer-logo {
-    width: auto;
-    height: 35px;
+.section-div {
+    margin: 20px 0px;
+    padding: 30px;
+    background: rgba(0, 0, 0, 0.45);
+}
+
+.section-div li {
+    margin: 10px 0px;
+}
+
+.section-div h1 {
+    margin: 20px 0px;
+}
+
+#logo {
+    margin: 0px 0px 30px 0px;
+}
+
+.left-text {
+    text-align: left;
+    width: 75%;
+    margin: 30px auto;
+}
+
+#into {
+    margin: 25px 0px 0px 0px;
 }
