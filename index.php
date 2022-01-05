@@ -83,7 +83,7 @@
 
     <!-- Intro Section -->
     <section id="rpg" class="intro-section">
-        <div class="container" id="intro">
+        <div class="container">
             <div class="row">
                 <div class="col-lg-12 section-div">
                     <h1>Ted Moonchild and the Roadies in Space the Game</h1>
@@ -99,10 +99,50 @@
                             <li>All the Dark Matter Ale<sup>TM</sup> you can handle!</li>
                         </ul>
                     </div>
-                    <form id="validate" action="recaptcha.php" method="post">
-                        <div class="g-recaptcha left" id="captcha" data-theme="dark" data-sitekey="6LdD6-8dAAAAANdPOdi2QreUq8NEPBBRQbKQxusc"></div>
-                        <input class="right" type="submit" name="play" value="Play the Proof of Concept!" />
-                    </form>
+                    <?php
+                    $captcha;
+                    if(isset($_POST['g-recaptcha-response'])){
+                        $captcha=$_POST['g-recaptcha-response'];
+                        $secretKey = file_get_contents('./.secret');
+                        $ip = $_SERVER['REMOTE_ADDR'];
+                        // post request to server
+                        $url = 'https://www.google.com/recaptcha/api/siteverify?secret=' . urlencode($secretKey) .  '&response=' . urlencode($captcha);
+                        $response = file_get_contents($url);
+                        $responseKeys = json_decode($response,true);
+                        // should return JSON with success as true
+                        if($responseKeys["success"]) {
+                            echo '
+                            <div id="form-space">
+                                <div class="code left">
+                                    <b>SSH command from a terminal:</b><br /><br />
+                                    ssh -p 7175 -t ted@moonchild.space "play"<br />
+                                    <b>password:</b> m00nch1ld
+                                </div>
+                                <div class="code right">
+                                    <b>Download and play it locally:</b><br />
+                                    <b>Linux:</b> <a href="#">ted-moonchild-linux.tar.gz</a><br />
+                                    <b>Windows:</b> <a href="#">ted-moonchild-windows.zip</a><br />
+                                    <b>macOS:</b> <a href="#">ted-moonchild-macos.zip</a>
+                                </div>
+                            </div>
+                            ';
+                        } else {
+                            echo '
+                            <div id="form-space">
+                                <h4>Something went wrong, please re-try the captcha.</h4>
+                            </div>
+                            ';
+                        }
+                    }
+                    else if(!$captcha){
+                        echo '
+                        <form id="form-space" action="index.php" method="post">
+                            <div class="g-recaptcha left" id="captcha" data-theme="dark" data-sitekey="6LdD6-8dAAAAANdPOdi2QreUq8NEPBBRQbKQxusc"></div>
+                            <input class="right" type="submit" name="play" value="Play the Proof of Concept!" />
+                        </form>
+                        ';
+                    }
+                    ?>
                 </div>
             </div>
         </div>
