@@ -21,7 +21,7 @@
     <link href="css/main.css" rel="stylesheet">
 
     <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <link href="fonts/Press_Start_2P.css" rel="stylesheet">
 
     <!-- reCaptcha v2 -->
     <script src='https://www.google.com/recaptcha/api.js' async defer></script>
