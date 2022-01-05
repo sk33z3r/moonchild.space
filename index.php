@@ -119,10 +119,13 @@
                                     <b>password:</b> m00nch1ld
                                 </div>
                                 <div class="code right">
-                                    <b>Download and play it locally:</b><br />
-                                    <b>Linux:</b> <a href="#">ted-moonchild-linux.tar.gz</a><br />
-                                    <b>Windows:</b> <a href="#">ted-moonchild-windows.zip</a><br />
-                                    <b>macOS:</b> <a href="#">ted-moonchild-macos.zip</a>
+                                    <b>Download and play it locally:</b><br /><br />
+                                    <b>Linux:</b> <a href="ted-moonchild-linux.tar.gz">ted-moonchild-linux.tar.gz</a><br />
+                                    <small><b>md5checksum:</b> 6b9ae8771c4eb082ff0bdbaf4d7efacb</small><br /><br />
+                                    <b>Windows:</b> <a href="#">Coming Soon</a><br />
+                                    <small><b>md5checksum:</b> XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</small><br /><br />
+                                    <b>macOS:</b> <a href="#">Coming Soon</a><br />
+                                    <small><b>md5checksum:</b> XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</small><br />
                                 </div>
                             </div>
                             ';
