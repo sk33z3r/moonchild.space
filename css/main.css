@@ -18,14 +18,21 @@ footer li {
     display: inline;
 }
 
-form {
-    margin: 0 auto;
-    width: 700px;
+#form-space {
+    margin: 0 auto 20px auto;
+    width: 850px;
     height: 75px;
     clear: both;
 }
 
+#form-space h4 {
+    margin-top: 50px;
+    color: red;
+    font-size: 14px;
+}
+
 form input {
+    margin-right: 75px;
     height: 75px;
     width: 325px;
     border-radius: 3px;
@@ -43,6 +50,22 @@ form input:hover {
     color: green;
 }
 
+.code {
+    padding: 10px;
+    width: 415px;
+    height: 75px;
+    background: #222;
+    border-radius: 3px;
+    border: 1px solid #555;
+    font-size: 9px;
+    color: #AAA;
+    text-align: left;
+}
+
+.center {
+    float: center;
+}
+
 .left {
     float: left;
 }
@@ -52,7 +75,7 @@ form input:hover {
 }
 
 #captcha {
-    margin: 0;
+    margin: 0 0 0 75px;
 }
 
 #header-logo {
@@ -129,8 +152,4 @@ form input:hover {
     text-align: left;
     width: 75%;
     margin: 30px auto;
-}
-
-#into {
-    margin: 25px 0px 0px 0px;
 }
