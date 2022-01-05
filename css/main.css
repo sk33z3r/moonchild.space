@@ -109,21 +109,25 @@ form input:hover {
 .intro-section {
     background-image: url('../images/universe_header_dark.png');
     background-size: cover;
+    background-position: center;
 }
 
 .about-section {
-    background-image: url('../images/gameplay_bg.jpeg');
+    background-image: url('../images/gameplay_bg.jpg');
     background-size: cover;
+    background-position: center;
 }
 
 .services-section {
     background-image: url('../images/download_bg.jpg');
     background-size: cover;
+    background-position: center;
 }
 
 .contact-section {
     background-image: url('../images/contact_bg.jpg');
     background-size: cover;
+    background-position: center;
 }
 
 .pxmargin {
