@@ -33,7 +33,7 @@
 
 </head>
 
-<body onload="rpgNav()">
+<body>
 
     <!-- Navigation -->
     <div id="navbar">
@@ -42,7 +42,7 @@
             <button onclick="rpgNav()" id="rpgBtn">The Adventure RPG</button>
             <button onclick="bookNav()" id="bookBtn">The Book</button>
             <button onclick="albumNav()" id="albumBtn">The Album</button>
-            <button onclick="contactNav()" id="contactBtn">Contact the Morons</button>
+            <button onclick="contactNav()" id="contactBtn">Contact</button>
             <span class="metal-horns">\m/</span>
         </div>
     </div>
@@ -78,12 +78,12 @@
                     if($responseKeys["success"]) {
                         echo '
                         <div id="form-space">
-                            <div class="code left">
+                            <div class="code ssh">
                                 <b>SSH command from a terminal:</b><br /><br />
                                 ssh -p 7175 -t ted@moonchild.space "play"<br />
                                 <small><b>password:</b> m00nch1ld</small>
                             </div>
-                            <div class="code right">
+                            <div class="code download">
                                 <b>Download and play it locally:</b><br /><br />
                                 <b>Linux:</b> <a href="ted-moonchild-linux.tar.gz">ted-moonchild-linux.tar.gz</a><br />
                                 <small><b>md5checksum:</b> 6b9ae8771c4eb082ff0bdbaf4d7efacb</small><br /><br />
@@ -106,7 +106,7 @@
                     echo '
                     <form id="form-space" action="index.php" method="post">
                         <div class="g-recaptcha left" id="captcha" data-theme="dark" data-sitekey="6LdD6-8dAAAAANdPOdi2QreUq8NEPBBRQbKQxusc"></div>
-                        <input class="right" type="submit" name="play" value="Play the Proof of Concept!" />
+                        <input type="submit" name="play" value="Play the Proof of Concept!" />
                     </form>
                     ';
                 }
