@@ -74,26 +74,30 @@
                     $url = 'https://www.google.com/recaptcha/api/siteverify?secret=' . urlencode($secretKey) .  '&response=' . urlencode($captcha);
                     $response = file_get_contents($url);
                     $responseKeys = json_decode($response,true);
+                    // generate checksums
+                    $linuxSum = md5_file('ted-moonchild-linux.tar.gz');
+                    //$windowsSum = md5_file('ted-moonchild-windows.zip');
+                    //$macosSum = md5_file('ted-moonchild-macos.zip');
                     // should return JSON with success as true
                     if($responseKeys["success"]) {
-                        echo '
-                        <div id="form-space">
-                            <div class="code ssh">
+                        echo "
+                        <div id=\"form-space\">
+                            <div class=\"code ssh\">
                                 <b>SSH command from a terminal:</b><br /><br />
-                                ssh -p 7175 -t ted@moonchild.space "play"<br />
+                                ssh -p 7175 -t ted@moonchild.space \"play\"<br />
                                 <small><b>password:</b> m00nch1ld</small>
                             </div>
-                            <div class="code download">
+                            <div class=\"code download\">
                                 <b>Download and play it locally:</b><br /><br />
-                                <b>Linux:</b> <a href="ted-moonchild-linux.tar.gz">ted-moonchild-linux.tar.gz</a><br />
-                                <small><b>md5checksum:</b> 6b9ae8771c4eb082ff0bdbaf4d7efacb</small><br /><br />
-                                <b>Windows:</b> <a href="#">Coming Soon</a><br />
+                                <b>Linux:</b> <a href=\"ted-moonchild-linux.tar.gz\">ted-moonchild-linux.tar.gz</a><br />
+                                <small><b>md5checksum:</b> $linuxSum</small><br /><br />
+                                <b>Windows:</b> <a href=\"#\">Coming Soon</a><br />
                                 <small><b>md5checksum:</b> XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</small><br /><br />
-                                <b>macOS:</b> <a href="#">Coming Soon</a><br />
+                                <b>macOS:</b> <a href=\"#\">Coming Soon</a><br />
                                 <small><b>md5checksum:</b> XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</small><br />
                             </div>
                         </div>
-                        ';
+                        ";
                     } else {
                         echo '
                         <div id="form-space">
