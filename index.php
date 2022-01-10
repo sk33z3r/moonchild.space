@@ -126,6 +126,8 @@
                 <div class="section-text">
                     <h1>The Lost Volumes of the Roadies in Space</h1>
                     <p>Immerse yourself into the Roadies universe with radical backstories and unnecessary details about how stuff works. Flex your knowledge to assert your dominance amongst friends!</p>
+                    <p>Initially these eBooks will be deeper backstories of all the characters that appear in the TMatRiS episodic games. Giving more context to the world around you filled with laughing and crying.</p>
+                    <p>These releases will happen in-between game episodes as new characters are developed and polished off. At first they will be released as eBooks only, but as I find my groove there will be audio versions with ambient sounds ala "The Shadow" from back in the radio days.</p>
                     <ul>
                         <li>Audio and eBook versions of each episode for those that are too weak to fight monsters!</li>
                         <li>Descriptions so detailed, you can almost smell Ted's ass!</li>
@@ -143,6 +145,8 @@
             <div class="container section-div">
                 <div class="section-text">
                     <h1>The Ultimate Original Soundtrack performed by The Roadies in Space</h1>
+                    <p>Original tunes written, performed and recorded by the Roadies and other miscreants from throughout the galaxy.</p>
+                    <p>The initial album being released is the main soundtrack to the games. Subsequent releases will include features from characters that appear throughout the story, spanning several genres. Eventually, the ultimate metal album will be unleashed.</p>
                     <ul>
                         <li>Rock so heavy, you'll shit your pants!</li>
                         <li>Experience the most epic eargasm of your life!</li>
