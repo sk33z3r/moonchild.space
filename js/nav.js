@@ -1,3 +1,10 @@
+function init() {
+    document.getElementById("rpgBtn").className = "active";
+    document.getElementById("bookBtn").className = "";
+    document.getElementById("albumBtn").className = "";
+    document.getElementById("contactBtn").className = "";
+}
+
 function rpgNav() {
     // Set state of the buttons
     document.getElementById("rpgBtn").className = "active";
