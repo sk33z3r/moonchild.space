@@ -1,10 +1,10 @@
 /* Font Definition */
 @font-face {
-    font-family: 'Teeny-Tiny-Pixls';
-    src:  url('fonts/Teeny-Tiny-Pixls.ttf.woff') format('woff'),
-    url('fonts/Teeny-Tiny-Pixls.ttf.svg#Teeny-Tiny-Pixls') format('svg'),
-    url('fonts/Teeny-Tiny-Pixls.ttf.eot'),
-    url('fonts/Teeny-Tiny-Pixls.eot?#iefix') format('embedded-opentype');
+    font-family: 'Unifont';
+    src:  url('fonts/Unifont.woff') format('woff'),
+          url('fonts/Unifont.svg#Unifont') format('svg'),
+          url('fonts/Unifont.eot'),
+          url('fonts/Unifont.eot?#iefix') format('embedded-opentype');
     font-weight: normal;
     font-style: normal;
 }
@@ -14,12 +14,12 @@
 body {
     color: #AAA;
     background: #000;
-    font-family: 'Teeny-Tiny-Pixls', monospace;
-    font-size: 14px;
+    font-family: 'Unifont', monospace;
+    font-size: 20px;
 }
 
 h1 {
-    font-size: 20px;
+    font-size: 26px;
     color: #f7c500;
 }
 
@@ -72,7 +72,7 @@ footer {
     width: 100%;
     background-color: #000;
     border-top: 1px solid #555;
-    font-size: 8px;
+    font-size: 12px;
 }
 
 /* Navigation */
@@ -85,13 +85,13 @@ footer {
     width: 100%;
     background-color: #000;
     border-bottom: 1px solid #555;
-    font-size: 12px;
 }
 
 #navbar button {
     padding: 15px;
     border: none;
-    font-family: 'Teeny-Tiny-Pixls', monospace;
+    font-family: 'Unifont', monospace;
+    font-size: 25px;
 }
 
 #navbar button, #navbar button:visited {
@@ -109,7 +109,7 @@ footer {
 .metal-horns {
     margin: 0 25px;
     color: #8d0808;
-    font-size: 20px;
+    font-size: 30px;
     display: block;
 }
 
@@ -190,7 +190,7 @@ section {
 #form-space h4 {
     padding: 25px;
     color: #8d0808;
-    font-size: 16px;
+    font-size: 22px;
     background: rgba(0, 0, 0, 0.45);
 }
 
@@ -203,8 +203,8 @@ form input {
     width: 303px;
     border-radius: 3px;
     border: 1px solid #555;
-    font-size: 11px;
-    font-family: 'Teeny-Tiny-Pixls', monospace;
+    font-size: 18px;
+    font-family: 'Unifont', monospace;
 }
 
 form input, form input:visited, form input:active {
@@ -225,7 +225,7 @@ form input:hover {
     background: #222;
     border-radius: 3px;
     border: 1px solid #555;
-    font-size: 12px;
+    font-size: 18px;
     color: #AAA;
     line-height: 15px;
 }
@@ -235,19 +235,16 @@ form input:hover {
 @media (min-width: 650px) and (max-width: 999px) {
     body {
         color: #CCC;
-        font-size: 12px;
+        font-size: 16px;
     }
 
     .container, .nav-container {
         width: 650px;
     }
 
-    #navbar {
-        font-size: 11px;
-    }
-
     #navbar button {
         line-height: 20px;
+        font-size: 18px;
     }
 
     .section-bg {
@@ -272,7 +269,7 @@ form input:hover {
 @media (max-width: 649px) {
     body {
         color: #CCC;
-        font-size: 9px;
+        font-size: 12px;
     }
 
     .nav-container {
@@ -285,17 +282,23 @@ form input:hover {
         overflow: auto;
     }
 
-    #navbar {
-        font-size: 7px;
-    }
-
     #navbar button {
         line-height: 20px;
         margin: 0;
+        font-size: 14px;
     }
 
     .section-bg {
         background: rgba(0, 0, 0, 0.65);
+    }
+
+    .section-div li {
+        margin: 8px 0px;
+    }
+
+    #form-space h4 {
+        font-size: 16px;
+        text-align: center;
     }
 
     #form-space {
@@ -319,6 +322,6 @@ form input:hover {
     .code {
         padding: 10px;
         width: 335px;
-        font-size: 9px;
+        font-size: 14px;
     }
 }
