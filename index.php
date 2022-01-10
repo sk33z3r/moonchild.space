@@ -163,7 +163,7 @@
                     <p>I'll have contact info and a newswire available soon.</p>
                     <p>Check out my other projects:</p>
                     <ul>
-                        <li><a href="https://sbt.sk33z3r.site">Sacred Bodies NFT</a></li>
+                        <li><a href="https://sk33z3r.site/sacred-bodies">Sacred Bodies NFT</a></li>
                         <li><a href="#">Order of the Floral Magi</a></li>
                     </ul>
                 </div>
