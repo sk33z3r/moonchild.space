@@ -55,7 +55,7 @@
                     <h1>Ted Moonchild and the Roadies in Space the Game</h1>
                     <p>The game as an NFT is meant as a throwback to the days of SNES cartridges and Blockbuster. I was always fond of finding save games with funny custom names or late game progress. Each token transfers with 3 save slots like the old days.</p>
                     <p>The game is under development and adding features all the time. This is currently a solo project trying to do things from scratch. The proof of concept available below will be updated periodically.</p>
-                    <p><b>Build Last Updated:</b> 2022-01-14</p>
+                    <p><b>Build Last Updated:</b> 2022-01-15<br /><i><small>Note: Save slots are reset with new builds in the ssh version.</small></i></p>
                     <p>Features:</p>
                     <ul>
                         <li>Console style text adventure RPG with turn-based combat</li>
@@ -85,6 +85,8 @@
                             <div class=\"code ssh\">
                                 <b>SSH command from a terminal:</b><br /><br />
                                 ssh -p 7175 -t ted@moonchild.space \"play\"<br />
+                                <small><i>OR</i></small><br />
+                                <small style=\"color: #aaa;\">ssh -p 7175 -t ted@moonchild.space \"play --nocolor\"</small><br />
                                 <small><b>password:</b> m00nch1ld</small>
                             </div>
                             <div class=\"code download\">
