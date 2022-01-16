@@ -56,13 +56,15 @@
                     <p>The game as an NFT is meant as a throwback to the days of SNES cartridges and Blockbuster. I was always fond of finding save games with funny custom names or late game progress. Each token transfers with 3 save slots like the old days.</p>
                     <p>The game is under development and adding features all the time. This is currently a solo project trying to do things from scratch. The proof of concept available below will be updated periodically.</p>
                     <p><b>Build Last Updated:</b> 2022-01-15<br /><i><small>Note: Save slots are reset with new builds in the ssh version.</small></i></p>
-                    <p>Features:</p>
-                    <ul>
-                        <li>Console style text adventure RPG with turn-based combat</li>
-                        <li>Slay aliens and robots using guitars, basses and drums as your weapons</li>
-                        <li>Augment your power with effects pedals and special stage moves</li>
-                        <li>All the Dark Matter Ale<sup>TM</sup> you can handle!</li>
-                    </ul>
+                    <div id="features">
+                        <p>Features:</p>
+                        <ul>
+                            <li>Console style text adventure RPG with turn-based combat</li>
+                            <li>Slay aliens and robots using guitars, basses and drums as your weapons</li>
+                            <li>Augment your power with effects pedals and special stage moves</li>
+                            <li>All the Dark Matter Ale<sup>TM</sup> you can handle!</li>
+                        </ul>
+                    </div>
                 </div>
                 <?php
                 $captcha;
