@@ -193,7 +193,7 @@
                     <p>Check out my other projects:</p>
                     <ul>
                         <li><a href="https://sk33z3r.site/sacred-bodies">Sacred Bodies NFT</a></li>
-                        <li><a href="https://sk33z3r.site/floral-magi">Order of the Floral Magi</a></li>
+                        <li><a href="https://sk33z3r.site/floral-magi">Order of the Floral Magi NFT</a></li>
                     </ul>
                 </div>
             </div>
