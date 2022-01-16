@@ -1,5 +1,5 @@
 function init() {
-    document.getElementById("rpgBtn").className = "active";
+    document.getElementById("rpgBtn").className = "";
     document.getElementById("bookBtn").className = "";
     document.getElementById("albumBtn").className = "";
     document.getElementById("contactBtn").className = "";

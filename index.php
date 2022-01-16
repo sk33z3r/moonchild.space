@@ -39,20 +39,41 @@
     <div id="navbar">
         <div class="nav-container">
             <span class="metal-horns">\m/</span>
-            <button onclick="rpgNav()" id="rpgBtn">The Adventure RPG</button>
-            <button onclick="bookNav()" id="bookBtn">The Book</button>
-            <button onclick="albumNav()" id="albumBtn">The Album</button>
-            <button onclick="contactNav()" id="contactBtn">Contact</button>
+            <button onclick="rpgNav()" id="rpgBtn">The RPG</button>
+            <button onclick="bookNav()" id="bookBtn">The Stories</button>
+            <button onclick="albumNav()" id="albumBtn">The Music</button>
+            <button onclick="contactNav()" id="contactBtn">The Morons</button>
             <span class="metal-horns">\m/</span>
         </div>
     </div>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="section-bg">
+            <div class="container section-div">
+                <div class="section-text">
+                    <h1>Ted Moonchild and the Roadies in Space</h1>
+                    <p>Follow the galactic golden boy of rock 'n roll as he careens out of control through space and time trying to defeat the evil conglomerates of Earth's past, hellbent on enslaving the galaxy!</p>
+                    <p>Amazing graphics? We don't need those. Lose yourself in the high tech immersive world of an ASCII text adventure.</p>
+                    <p>Start off in a slum rock and roll bar, working your way from planet to planet, engaging in thrilling turn based battles and loose women of all species!</p>
+                    <p>Features:</p>
+                    <ul>
+                        <li>Several text and background colors!</li>
+                        <li>Web and Telnet play!</li>
+                        <li>Save and load your game progress!</li>
+                        <li>All the Dark Matter Ale<sup>TM</sup> you can handle!</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- Game Section -->
     <section id="rpg">
         <div class="section-bg">
             <div class="container section-div">
                 <div class="section-text">
-                    <h1>Ted Moonchild and the Roadies in Space the Game</h1>
+                    <h1>Ted Moonchild and the Roadies in Space: the Game</h1>
                     <p>The game as an NFT is meant as a throwback to the days of SNES cartridges and Blockbuster. I was always fond of finding save games with funny custom names or late game progress. Each token transfers with 3 save slots like the old days.</p>
                     <p>The game is under development and adding features all the time. This is currently a solo project trying to do things from scratch. The proof of concept available below will be updated periodically.</p>
                     <p><b>Build Last Updated:</b> 2022-01-15 (d9068ad618)<br /><i><small>Note: Save slots are reset with new builds in the ssh version.</small></i></p>
@@ -128,7 +149,7 @@
         <div class="section-bg">
             <div class="container section-div">
                 <div class="section-text">
-                    <h1>The Lost Volumes of the Roadies in Space</h1>
+                    <h1>The Roadies in Space: The Lost Volumes</h1>
                     <p>Immerse yourself into the Roadies universe with radical backstories and unnecessary details about how stuff works. Flex your knowledge to assert your dominance amongst friends!</p>
                     <p>Initially these eBooks will be deeper backstories of all the characters that appear in the TMatRiS episodic games. Giving more context to the world around you filled with laughing and crying.</p>
                     <p>These releases will happen in-between game episodes as new characters are developed and polished off. At first they will be released as eBooks only, but as I find my groove there will be audio versions with ambient sounds ala "The Shadow" from back in the radio days.</p>
@@ -148,7 +169,7 @@
         <div class="section-bg">
             <div class="container section-div">
                 <div class="section-text">
-                    <h1>The Ultimate Original Soundtrack performed by The Roadies in Space</h1>
+                    <h1>The Roadies in Space: OST</h1>
                     <p>Original tunes written, performed and recorded by the Roadies and other miscreants from throughout the galaxy.</p>
                     <p>The initial album being released is the main soundtrack to the games. Subsequent releases will include features from characters that appear throughout the story, spanning several genres. Eventually, the ultimate metal album will be unleashed.</p>
                     <ul>
@@ -166,13 +187,13 @@
         <div class="section-bg">
             <div class="container section-div">
                 <div class="section-text">
-                    <h1>Contact the morons behind Ted Moonchild and the Roadies in Space Universe</h1>
-                    <p>Found a bug? Have an idea? Want to send us hate mail?</p>
+                    <h1>The Moron behind the Roadies in Space Universe</h1>
+                    <p>Found a bug? Have an idea? Want to send hate mail?</p>
                     <p>I'll have contact info and a newswire available soon.</p>
                     <p>Check out my other projects:</p>
                     <ul>
                         <li><a href="https://sk33z3r.site/sacred-bodies">Sacred Bodies NFT</a></li>
-                        <li><a href="#">Order of the Floral Magi</a></li>
+                        <li><a href="https://sk33z3r.site/floral-magi">Order of the Floral Magi</a></li>
                     </ul>
                 </div>
             </div>

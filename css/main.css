@@ -148,13 +148,18 @@ section {
     background: rgba(0, 0, 0, 0.25);
 }
 
-#rpg, #book, #album, #contact {
+#home, #rpg, #book, #album, #contact {
     background-size: cover;
     background-position: center;
 }
 
-#rpg {
+#home {
     display: block;
+    background-image: url('../images/home_bg.jpg');
+}
+
+#rpg {
+    display: none;
     background-image: url('../images/game_bg.jpg');
 }
 
