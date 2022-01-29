@@ -76,14 +76,14 @@
                     <h1>Ted Moonchild and the Roadies in Space: the Game</h1>
                     <p>The game as an NFT is meant as a throwback to the days of SNES cartridges and Blockbuster. I was always fond of finding save games with funny custom names or late game progress. Each token transfers with 3 save slots like the old days.</p>
                     <p>The game is under development and adding features all the time. This is currently a solo project trying to do things from scratch. The proof of concept available below will be updated periodically.</p>
-                    <p><b>Build Last Updated:</b> 2022-01-23 (3924c28d32)<br /><i><small>Note: Save slots are reset with new builds in the ssh version.</small></i></p>
+                    <p><b>Build Last Updated:</b> 2022-01-29 (5940c39)<br /><i><small>Note: Save slots are reset with new builds in the ssh version.</small></i></p>
                     <div id="features">
                         <p>Release Notes:</p>
                         <ul>
-                            <li>Re-factor entire game engine, removed battles until they can be rebuilt</li>
-                            <li>Implement curses UI</li>
-                            <li>More dialogue, items, and descriptions</li>
-                            <li>Added story plot lines and puzzles</li>
+                            <li>Enhance the UI aesthetic</li>
+                            <li>Initial battle UI for testing, but still no battles</li>
+                            <li>Updated dialogue and room descriptions</li>
+                            <li>Added more items, but are not yet used in gameplay</li>
                         </ul>
                     </div>
                 </div>
