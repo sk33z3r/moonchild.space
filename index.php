@@ -33,7 +33,7 @@
 
 </head>
 
-<body onload="init()">
+<body onload="<?php if(isset($_POST['g-recaptcha-response'])){ echo "captchaSuccess()"; } else { echo "init()"; } ?>">
 
     <!-- Navigation -->
     <div id="navbar">

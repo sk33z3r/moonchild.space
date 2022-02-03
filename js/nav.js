@@ -5,6 +5,19 @@ function init() {
     document.getElementById("contactBtn").className = "";
 }
 
+function captchaSuccess() {
+    // Set state of the buttons
+    document.getElementById("rpgBtn").className = "active";
+    document.getElementById("bookBtn").className = "";
+    document.getElementById("albumBtn").className = "";
+    document.getElementById("contactBtn").className = "";
+    // Set display of sections
+    document.getElementById("rpg").style.display = 'block';
+    document.getElementById("book").style.display = 'none';
+    document.getElementById("album").style.display = 'none';
+    document.getElementById("contact").style.display = 'none';
+}
+
 function rpgNav() {
     // Set state of the buttons
     document.getElementById("rpgBtn").className = "active";
