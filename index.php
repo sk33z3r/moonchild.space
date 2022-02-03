@@ -108,8 +108,6 @@
                             <div class=\"code ssh\">
                                 <b>SSH command from a terminal:</b><br /><br />
                                 ssh -p 7175 -t ted@moonchild.space \"play\"<br />
-                                <small><i>OR</i></small><br />
-                                <small style=\"color: #aaa;\">ssh -p 7175 -t ted@moonchild.space \"play --nocolor\"</small><br />
                                 <small><b>password:</b> m00nch1ld</small>
                             </div>
                             <div class=\"code download\">
