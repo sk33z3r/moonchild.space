@@ -31,6 +31,16 @@
     <link rel="preload" as="image" href="images/album_bg.jpg">
     <link rel="preload" as="image" href="images/contact_bg.jpg">
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BM6M5JYGB9"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-BM6M5JYGB9');
+    </script>
+
 </head>
 
 <body onload="<?php if(isset($_POST['g-recaptcha-response'])){ echo "captchaSuccess()"; } else { echo "init()"; } ?>">
