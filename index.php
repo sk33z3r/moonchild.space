@@ -198,7 +198,7 @@
                 <div class="section-text">
                     <h1>The Moron behind the Roadies in Space Universe</h1>
                     <p>Found a bug? Have an idea? Want to send hate mail?</p>
-                    <p>You can send an email to <a href="mailto:sk33z3r@protonmail.com">sk33z3r@protonmail.com</a></p>
+                    <p>You can send an email to <a href="mailto:sk33z3r@pm.me">sk33z3r@pm.me</a></p>
                     <p>Check out my other projects:</p>
                     <ul>
                         <li><a href="https://sk33z3r.site/sacred-bodies">Sacred Bodies NFT</a></li>
