@@ -212,7 +212,7 @@
     <footer>
         <div class="nav-container">
             <div class="text-left">
-                Copyright &copy; 2022 <a href="https://sk33z3r.site">sk33z3r.site</a>
+                Copyright &copy; 2022 <a href="https://sk33z3r.site">sk33z3r.eth</a>
             </div>
         </div>
     </footer>
